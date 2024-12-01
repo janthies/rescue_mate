@@ -1,0 +1,4 @@
+# List of available features
+# https://doc.riot-os.org/md_doc_2doxygen_2src_2feature__list.html
+
+FEATURES_REQUIRED += periph_adc
