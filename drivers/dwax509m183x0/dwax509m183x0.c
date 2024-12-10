@@ -18,7 +18,7 @@ static float dwax509m183x0_response_curve(float const voltage)
                             b1 * voltage +
                             b0;
 
-    return distance;
+    return distance < 0 ? 0 : distance;
 }
 
 static int adc_bits_to_resulution(int adc_bits)
